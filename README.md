@@ -30,7 +30,7 @@ El proyecto sigue una arquitectura en capas:
 
 1. Clonar el repositorio:
 ```bash
-   git clone <url-del-repo>
+   git clone <https://github.com/YoendersonGonzalez/sistema-gesti-n-de-tareas-yoenderson-gonzalez>
    cd sistema-gestion-de-tareas
 ```
 

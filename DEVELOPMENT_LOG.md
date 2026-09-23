@@ -28,5 +28,6 @@ Se usó Claude (Anthropic) como apoyo durante el desarrollo, principalmente para
 
 ## Decisiones tomadas sin asistencia de IA
 
-1. [Completar: alguna decisión de nombres, organización de carpetas o estructura de datos que tomaste tú directamente]
-2. [Completar: otra decisión — por ejemplo, cómo manejar algún caso particular de negocio, orden de desarrollo, o ajuste sobre lo sugerido]
+1. Mantener los nombres de campos y funciones en español (`nombre`, `titulo`, `crearTask`, `obtenerTaskDeUsuario`) en vez de traducir todo a inglés, para que coincidieran con los nombres reales de las columnas en PostgreSQL y el código fuera más fácil de seguir.
+
+2. Organizar y comentar el código de forma más ligera y clara donde se consideró necesario, para que fuera más fácil de entender al releerlo.
