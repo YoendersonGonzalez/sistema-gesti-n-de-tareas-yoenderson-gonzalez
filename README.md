@@ -37,6 +37,22 @@ El proyecto sigue una arquitectura en capas:
 2. Instalar dependencias:
 ```bash
    npm install
+   
+   npm install express dotenv bcrypt jsonwebtoken pg ajv ajv-formats
+
+   npm install -D typescript ts-node-dev @types/node @types/express @types/bcrypt @types/jsonwebtoken @types/pg
+
+    npx tsc --init
+    
+    npm install-scripts approve bcrypt
+
+    npm uninstall typescript
+    npm install -D typescript@5.7.2
+
+    npm install-scripts approve bcrypt
+
+    npm install-scripts approve bcryptm
+
 ```
 
 3. Configurar variables de entorno (ver sección siguiente).
